@@ -1,0 +1,16 @@
+<project default="run">
+<description>
+TK1 - programming assignment X
+--------------------------
+Group Members:
+Amit Bhanja
+Raghunath Deshpande
+Banashri Mandal
+</description>
+	<target name="run">
+		<parallel>
+			<ant antfile="../Lamport/build.xml" dir="../Lamport" target="Gui" inheritAll="false" />
+		</parallel>
+	</target>
+</project>
+  
