@@ -10,4 +10,7 @@
   ```
   ant // runs Lamport GUI
 
+## License
+Licensed under the MIT license
+
 
